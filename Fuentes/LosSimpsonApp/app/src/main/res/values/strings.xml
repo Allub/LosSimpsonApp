@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LosSimpsonApp</string>
+    <string name="texto_button">Solicitar Consejo</string>
+    <string name="numero_de_citas">Número de citas</string>
+</resources>
