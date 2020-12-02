@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="tamanio_letra">18sp</dimen>
+    <dimen name="tamanio_frase">16sp</dimen>
     <dimen name="separador">5dp</dimen>
     <dimen name="separador_top">10dp</dimen>
     <dimen name="layout_height_toolbar">70dp</dimen>
+    <dimen name="height_image">140dp</dimen>
 </resources>

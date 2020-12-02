@@ -2,39 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
+    <ImageView
+        android:layout_marginTop="@dimen/separador"
+        android:id="@+id/image_pj"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_image"
+        android:layout_weight="1"
+        android:layout_gravity="center"></ImageView>
     <TextView
         android:id="@+id/nombre_pj"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:gravity="center"
         android:layout_weight="1"
+        android:textColor="@color/gray"
         android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
         android:textSize="@dimen/tamanio_letra"
         android:textStyle="bold|italic"></TextView>
-
     <TextView
         android:id="@+id/frase_pj"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="@dimen/separador"
+        android:textSize="@dimen/tamanio_frase"
         android:layout_weight="1"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
-        android:textSize="@dimen/tamanio_letra"
-        android:textStyle="italic"></TextView>
-
-    <ImageView
-        android:id="@+id/image_pj"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/gray"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="1"></ImageView>
-
-
+        android:layout_height="wrap_content"></TextView>
 </LinearLayout>
